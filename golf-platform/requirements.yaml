@@ -1,0 +1,27 @@
+packages:
+  "framer-motion": "For page transitions, smooth reveals, and layout animations"
+  "recharts": "For the admin analytics dashboard charts"
+  "date-fns": "For formatting draw dates and user activity timestamps"
+  "clsx": "Utility for constructing className strings conditionally"
+  "tailwind-merge": "Utility to resolve Tailwind CSS class conflicts"
+  "react-hook-form": "For robust and performant form state management"
+  "@hookform/resolvers": "To integrate Zod validation with React Hook Form"
+  "zod": "For strict schema validation on form inputs"
+  "lucide-react": "For beautiful, consistent iconography across the platform"
+
+images:
+  - path: "artifacts/golf-platform/public/images/hero-bg.png"
+    description: "Dark moody cinematic background featuring abstract geometric shapes in deep navy blue and emerald green with subtle glowing warm gold dust particles, luxurious and premium feel"
+    aspect_ratio: "16:9"
+  - path: "artifacts/golf-platform/public/images/charity-impact.png"
+    description: "Emotional abstract illustration representing charity and giving back, warm glowing light emerging from hands against a deep dark background, elegant and sophisticated"
+    aspect_ratio: "16:9"
+  - path: "artifacts/golf-platform/public/images/jackpot-glow.png"
+    description: "A beautifully rendered glowing spherical object representing a jackpot or lottery ball, rich emerald and gold colors over a pure black background, 3d rendered look"
+    aspect_ratio: "1:1"
+
+notes:
+  - Using generated Orval hooks from @workspace/api-client-react
+  - Auth is handled via cookie-based sessions with /api/auth/me
+  - All form submissions use Zod coercion for numbers
+  - The UI uses a completely custom dark-themed design system
